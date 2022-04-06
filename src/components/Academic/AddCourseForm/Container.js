@@ -7,7 +7,7 @@ function Container() {
         section: "",
         sessions_planned: '',
         sessions_delivered:"",
-        branch:'Branch',
+        branch:'',
     });
     const handleChange = (e) => {
         setState({

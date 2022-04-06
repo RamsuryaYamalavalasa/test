@@ -69,11 +69,11 @@ export default function Presentation(props) {
                   onChange={handleChange}
                   required
                 >
-                  <MenuItem value={10}>ECE</MenuItem>
-                  <MenuItem value={20}>EEE</MenuItem>
-                  <MenuItem value={30}>CSE</MenuItem>
-                  <MenuItem value={20}>MECH</MenuItem>
-                  <MenuItem value={30}>CIVIL</MenuItem>
+                  <MenuItem value='ECE'>ECE</MenuItem>
+                  <MenuItem value='EEE'>EEE</MenuItem>
+                  <MenuItem value='CSE'>CSE</MenuItem>
+                  <MenuItem value='MECH'>MECH</MenuItem>
+                  <MenuItem value='CIVIL'>CIVIL</MenuItem>
                 </Select>
               </FormControl>
             </Box>
@@ -108,7 +108,7 @@ export default function Presentation(props) {
             />
           </div>
 
-          <Button variant="contained" sx={{ width: "100px", mx: "auto" }}>
+          <Button variant="contained" sx={{ width: "90px", mx: "auto" }}>
             Submit
           </Button>
         </div>
